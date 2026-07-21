@@ -24,10 +24,8 @@ const products = [
 
 function Product() {
   return (
-    <div className="products">
-      {products.map((item) => (
-        <ProductCard key={item.id} product={item} />
-      ))}
+    <div>
+      <h2>Products</h2>
     </div>
   );
 }
